@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: #044c4f;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .navbar .logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ffd600;
+  }
+  
+  /* Home Section */
+  .home {
+    background: linear-gradient(to right, #023a3d, #30cdd5);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .home h1 span {
+    color: #1d1801;
+  }
+  
+  .home .btn {
+    background: #887c08;
+    color: #055054;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background 0.3s;
+  }
+  
+  .home .btn:hover {
+    background: #7d6009;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 60px 20px;
+    background: #f9f9f9;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .about-photo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Projects Section */
+  .projects {
+    padding: 60px 20px;
+    background: #023c3f;
+    color: #fff;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    background: #fff;
+    color: #044c50;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 60px 20px;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact input, .contact textarea, .contact button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .contact button {
+    background: #026e74;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contact button:hover {
+    background: #0a4346;
+  }
+  
+  footer {
+    background: #064043;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
